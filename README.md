@@ -14,7 +14,7 @@ Created by **Xynforge**.
 ---
 
 ## 📥 Download  
-[⬇ Download Game Here](https://drive.google.com/file/d/1yaS82cloh4lEASoSJGa-RzQvvMs3PzXR/view?usp=sharing)
+[⬇ Download Game Here](https://drive.google.com/file/d/1lOj0_RnQ9Y39hX-J5TsegG6bGmfyRBDn/view?usp=sharing)
 
 ---
 
