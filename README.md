@@ -1,4 +1,4 @@
-# Whisker Quest 🐾
+# Purrvana Quest 🐾
 A 2D adventure platformer where you play as a brave cat on a quest to save the lost kingdom.  
 
 Created by **Xynforge**.
