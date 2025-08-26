@@ -10,7 +10,7 @@ Created by **Xynforge**.
 - Reach the goal to win!
 
 ## Download
-[Download Game Here](https://drive.google.com/drive/folders/1fmftDAxBe_UcXFn1XPwzXkm0etKAyicC?usp=sharing)
+[Download Game Here](https://drive.google.com/file/d/1cpVNPGRvK38ZNRKavctJYZL7w5jUs8xB/view?usp=sharing)
 
 ## Screenshots
 ![Gameplay](screenshot.png)
