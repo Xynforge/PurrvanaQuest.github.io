@@ -6,8 +6,9 @@ Created by **Xynforge**.
 ---
 
 ## How to Play
-- Use arrow keys to move.  
-- Space to jump.  
+- Use arrow Buttons to move.  
+- Space Button to jump.
+- Down Button to Down
 - Avoid spikes and enemies. 
 - Reach the goal to win!  
 
