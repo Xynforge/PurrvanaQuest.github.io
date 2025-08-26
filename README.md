@@ -1,4 +1,4 @@
-# Purrvana Quest
+# Purrvana Quest Moblie
 A 2D adventure platformer where you play as a brave cat on a quest to save the lost kingdom.  
 Still on Development
 Created by **Xynforge**.
