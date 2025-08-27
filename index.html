@@ -83,6 +83,16 @@
     .btn:hover {
       background: #e68900;
     }
+    .update-box {
+      background: rgba(255,255,255,0.1);
+      padding: 20px;
+      border-radius: 12px;
+      margin-top: 20px;
+    }
+    .update-box h3 {
+      margin-top: 0;
+      color: #ff9800;
+    }
     footer {
       text-align: center;
       padding: 30px;
@@ -101,6 +111,7 @@
   <nav>
     <a href="#about">About</a>
     <a href="#projects">Projects</a>
+    <a href="#updates">Updates</a>
     <a href="#contact">Contact</a>
   </nav>
 
@@ -109,53 +120,54 @@
     <p>Hello! I'm Xynforge, a passionate indie game developer from the Philippines. I love creating fun, challenging, and beautiful experiences through games. This is my personal space where I share my projects and updates.</p>
   </section>
 
-<section id="Updates Moblie">
-    <h2>Latest Updates</h2>
-    <div class="update-box">
-      <h3 id="version">Version: Alpha-0.0.3</h3>
-      <p id="description">Initial release of Purrvana Quest! </p>
-    </div>
-  </section>
-
-
-
-  <section id="Updates PC">
-    <h2>Latest Updates</h2>
-    <div class="update-box">
-      <h3 id="version">Version: Alpha-0.0.2</h3>
-      <p id="description">Initial release of Purrvana Quest! </p>
-    </div>
-  </section>
-
-
-
-  
   <section id="projects">
     <h2>My Projects</h2>
     <div class="projects">
       <div class="card">
         <img src="https://via.placeholder.com/300x150" alt="Game Screenshot"/>
-        <h3>Purrvana Quest Moblie </h3>
-        <p>A 2D platformer starring a brave cat exploring mysterious worlds Solving puzzle's and collecting Energy Cells to unlock the portals</p>
-        <a class="btn" href= "https://drive.google.com/uc?export=download&id=1lOj0_RnQ9Y39hX-J5TsegG6bGmfyRBDn" target="_blank">Download</a>
+        <h3>Purrvana Quest Mobile</h3>
+        <p>A 2D platformer starring a brave cat exploring mysterious worlds, solving puzzles, and collecting Energy Cells to unlock portals.</p>
+        <a class="btn" id="mobileDownload" target="_blank">Download</a>
       </div>
       <div class="card">
         <img src="https://via.placeholder.com/300x150" alt="Game Screenshot"/>
-        <h3>Purrvana Quest Pc </h3>
-        <p> A 2D platformer starring a brave cat exploring mysterious worlds Solving puzzle's and collecting Energy Cells to unlock the portals</p>
-        <a class="btn" href="https://drive.google.com/uc?export=download&id=1cpVNPGRvK38ZNRKavctJYZL7w5jUs8xB" target="_blank">Download</a>
+        <h3>Purrvana Quest PC</h3>
+        <p>A 2D platformer starring a brave cat exploring mysterious worlds, solving puzzles, and collecting Energy Cells to unlock portals.</p>
+        <a class="btn" id="pcDownload" target="_blank">Download</a>
       </div>
+    </div>
+  </section>
+
+  <section id="updates">
+    <h2>Latest Updates</h2>
+    <div class="update-box">
+      <h3 id="version">Version: 1.0.0</h3>
+      <p id="description">Initial release of Purrvana Quest! 🎉</p>
     </div>
   </section>
 
   <section id="contact">
     <h2>Contact</h2>
     <p>📧 Email: <a href="mailto:Xynforge@email.com" style="color:#ff9800">Xynforge@email.com</a></p>
-   
   </section>
 
   <footer>
     © 2025 Xynforge | Made with ❤️ and GitHub Pages
   </footer>
+
+  <script>
+    // 🔧 Update these values when you release a new version
+    const version = "1.1.0";
+    const description = "🐾 Fixed level collision bugs, added 2 new stages, and improved controls.";
+    const mobileLink = "https://drive.google.com/uc?export=download&id=1lOj0_RnQ9Y39hX-J5TsegG6bGmfyRBDn";
+    const pcLink = "https://drive.google.com/uc?export=download&id=1cpVNPGRvK38ZNRKavctJYZL7w5jUs8xB";
+
+    // Apply updates dynamically
+    document.getElementById("version").textContent = "Version: " + version;
+    document.getElementById("description").textContent = description;
+    document.getElementById("mobileDownload").href = mobileLink;
+    document.getElementById("pcDownload").href = pcLink;
+  </script>
 </body>
 </html>
+
